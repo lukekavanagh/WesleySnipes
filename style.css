@@ -143,10 +143,6 @@ footer a:hover
 }
 
 
-@media only screen and (min-width: 40.063em) {
-.button-group{float:right;}}
-.namelogo {padding:20px 10px 0px 10px;
- }
 
 @media only screen and (min-width: 40.063em) {.namelogo{padding-bottom:20px;}}
 
@@ -200,3 +196,12 @@ font-size:2.5em;font-weight:600;text-align:center;
 
 @media only screen and (min-width: 64.063em) {
 .intro-text{padding-top:18%;}}
+
+@media only screen and (min-width: 40.063em) {
+
+.about img a {
+display: block;
+width: 1100px;
+height: 1100px;
+-webkit-border-radius:1100px;
+}}
